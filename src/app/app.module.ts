@@ -6,6 +6,7 @@ import { NavegacaoModule } from './navegacao/navegacao.module';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { ToastrModule } from 'ngx-toastr';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -17,6 +18,7 @@ import { ToastrModule } from 'ngx-toastr';
     NavegacaoModule,
     NgbModule,
     BrowserAnimationsModule,
+    HttpClientModule,
     ToastrModule.forRoot()
   ],
   providers: [],
